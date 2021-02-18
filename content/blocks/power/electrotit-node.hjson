@@ -1,0 +1,14 @@
+name: Electrotit node
+type: PowerNode
+health: 340
+size: 2
+maxNodes: 25
+laserRange: 22.5
+requirements: [
+	electrotit/15
+	silicon/20
+	titanium/ 10
+	lead/10
+]
+research: surge-tower
+category: power

@@ -1,0 +1,20 @@
+name: Electrotit bridge conveyer
+description: A bridge conveyer with extreme range and some extra storage.
+type: ItemBridge
+health: 125
+range: 26
+itemCapacity: 50
+transportTime: 0
+hasPower: true
+category: distribution
+consumes: {
+  power: 0.5
+}
+requirements: [
+  electrotit/15
+  phase-fabric/10
+  silicon/7
+  lead/10
+  graphite/10
+]
+research: phase-conveyor

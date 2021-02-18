@@ -1,0 +1,29 @@
+type: OverdriveProjector
+name: Vodorotit overdrive dome
+description: Speeeeed.
+health: 620
+size: 3
+range: 250
+reload: 4
+itemCapacity: 15
+speedBoost: 3.5
+speedBoostPhase: 0
+phaseRangeBoost: 0
+consumes: {
+ power: 15
+ items: {
+    items: [
+      vodorotit/1
+      phase-fabric/1
+    ]
+  }
+}
+requirements: [
+  vodorotit/325
+  titanium/320
+  lead/270
+  plastanium/100
+  surge-alloy/150
+]
+category: effect
+research: overdrive-dome

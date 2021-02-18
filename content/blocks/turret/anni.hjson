@@ -1,0 +1,36 @@
+type: itemTurret
+name: Anni
+description: Power
+update: true
+base: block-6
+shootSound: lasercharge
+consumes: {
+ power: 40
+}
+requirements: [
+copper/5000
+magnetit/3400
+surge-alloy/5500
+electrotit/2620
+vodorotit/3820
+prototit/2450
+] 
+ammoTypes: {
+  magnetit: {
+    type: ContinuousLaserBulletType
+	lifetime: 100
+	damage: 3500
+	length: 550
+	width: 32
+	colors: [FFAB00, FFCF6D]
+  }
+}
+reloadTime: 180
+shots: 1
+burstSpacing: 2
+inaccuracy: 0.2
+range: 550
+size: 6
+health: 8560
+research: magnate
+category: turret

@@ -1,0 +1,10 @@
+name: Dark matter wall
+description: STROONG!
+type: Wall
+health: 29760
+size: 1
+requirements: [
+  dark-matter/64
+]
+category: defense
+research: prototit-wall-large

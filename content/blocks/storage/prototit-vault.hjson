@@ -1,0 +1,14 @@
+name: Prototit vault
+description: Stores a lot of items.
+type: StorageBlock
+itemCapacity: 3000
+hasItems: true
+health: 1250
+size: 4
+requirements: [
+  prototit/100
+  titanium/300
+  thorium/175
+]
+category: effect
+research: vault

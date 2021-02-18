@@ -1,0 +1,27 @@
+name: Cryofluid+ mixer
+type: GenericCrafter
+description: Mixes cryofluid+ water
+liquidCapacity: 30
+itemCapacity: 30
+outputLiquid: cryofluid+/0.1
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 1
+consumes: {
+	power: 5
+	liquid: cryofluid/0.1
+  items: {
+    items: [
+      vodorotit/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+	vodorotit/70
+	lead/70
+	silicon/55
+]
+category: "crafting"
+research: "cryofluid-mixer"

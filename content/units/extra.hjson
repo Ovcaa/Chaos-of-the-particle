@@ -1,0 +1,91 @@
+type: flying
+name: Extra
+description: wat?
+speed: 3.8
+accel: 0.125
+drag: 0.0625
+mineSpeed: 9
+mineTier: 3
+health: 1200
+itemCapacity: 90
+rotateSpeed: 21
+hitSize: 13
+isCounted: false
+armor: 1
+buildSpeed: 2.5
+rotateShooting: true
+commandLimit: 8
+engineOffset: 8.5
+flying: true
+weapons: [
+    {
+        name: extra-blaster
+        reload: 38
+        x: 5
+        y: 2
+        top: false
+        rotate: false
+        shots: 5
+        inaccuracy: 5
+		velocityRnd: 0.25
+		shootY: 3
+        ejectEffect: casing2
+		shootSound: shootBig
+        bullet: {
+            type: BasicBulletType
+            damage: 120
+            speed: 5.5
+            width: 8
+            height: 14
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.07
+            lifetime: 40
+            sprite: bullet
+        }
+    },
+    {
+        name: small-extra-blaster
+        reload: 20
+        x: 3
+        y: -3
+        top: false
+        rotate: true
+        rotateSpeed: 18
+        shots: 1
+        inaccuracy: 1
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 80
+            speed: 8
+            width: 4
+            height: 9
+			tileDamageMultiplier: 0.03
+            lifetime: 20
+            sprite: bullet
+        }
+    },
+    {
+        name: small-extra-blaster
+        reload: 20.1
+        x: -5
+        y: -2
+        top: false
+        rotate: true
+        rotateSpeed: 18
+        shots: 1
+        inaccuracy: 1
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 80
+            speed: 8
+            width: 4
+            height: 9
+			tileDamageMultiplier: 0.03
+            lifetime: 20
+            sprite: bullet
+        }
+    }
+]

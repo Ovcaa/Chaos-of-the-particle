@@ -1,0 +1,45 @@
+type: Reconstructor
+name: Vodorotit exponential reconstructor
+health: 2620
+size: 7
+itemCapacity: 1900
+liquidCapacity: 100
+constructTime: 3100
+
+requirements: [
+    titanium/2500
+	thorium/950
+	plastanium/550
+	vodorotit/800
+    lead/2600
+    silicon/1300
+	electrotit/750
+]
+
+upgrades: [
+    [vanger, ranler]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 950
+            },
+            {
+                item: vodorotit
+                amount: 850
+            },
+            electrotit/750
+        ]
+	}	
+    liquid: {
+        liquid: cryofluid+
+        amount: 1
+    }
+    power: 15
+}
+
+category: units
+research: vodorotit-multiplicative-reconstructor

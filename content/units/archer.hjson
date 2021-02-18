@@ -1,0 +1,49 @@
+type: flying
+name: Archer
+description: Wat.
+health: 32670
+flying: true
+speed: 3.85
+accel: 0.125
+drag: 0.0625
+hitSize: 20
+lowAltitude: true
+armor: 5
+
+engineOffset: 12
+engineSize: 3
+
+weapons: [
+  {
+    name: archer-missiles
+    reload: 30
+    x: 7
+    rotate: true
+    shake: 1
+    shots: 2
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: MissileBulletType
+      speed: 3
+      damage: 820
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      homingRange: 60
+      keepVelocity: false
+      splashDamageRadius: 25
+      splashDamage: 560
+      lifetime: 60
+      trailColor: 090086
+      backColor: 03002B
+      frontColor: 090086
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 6
+      weaveMag: 1
+    }
+  }
+]
+research: void-multiplicative-reconstructor

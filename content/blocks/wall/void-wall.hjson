@@ -1,0 +1,12 @@
+name: Void matter wall
+description: MEGA STROONG!
+type: Wall
+health: 379760
+size: 1
+requirements: [
+  void/128
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: dark-matter-wall-large

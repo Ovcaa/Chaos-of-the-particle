@@ -1,0 +1,30 @@
+type: mech
+name: Renger
+description: W.
+speed: 0.65
+health: 750
+armor: 3
+canBoost: true
+weapons: [
+    {
+        name: renger-weapon
+        top: true
+        shake: 1.5
+        shootY: 5
+        reload: 35
+        shots: 4
+        inaccuracy: 15
+        shotDelay: 0.75
+        spacing: 0
+        recoil: 1.5
+        ejectEffect: none
+        shootSound: spark
+        bullet: {
+            type: MissileBulletType
+            damage: 195
+			trailColor: B300C3
+			lifetime: 140
+        }
+    }
+]
+research: vodorotit-additive-reconstructor

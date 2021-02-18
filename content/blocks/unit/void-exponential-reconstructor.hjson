@@ -1,0 +1,46 @@
+type: Reconstructor
+name: Void exponential reconstructor
+health: 32420
+size: 7
+itemCapacity: 1900
+liquidCapacity: 100
+constructTime: 3100
+
+requirements: [
+    titanium/2500
+	thorium/950
+	plastanium/550
+	vodorotit/800
+    lead/2600
+    silicon/1300
+	electrotit/750
+    void/2400
+]
+
+upgrades: [
+    [archer, lir]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: void
+                amount: 950
+            },
+            {
+                item: vodorotit
+                amount: 850
+            },
+            electrotit/750
+        ]
+	}	
+    liquid: {
+        liquid: cryofluid+
+        amount: 1
+    }
+    power: 20
+}
+
+category: units
+research: void-multiplicative-reconstructor

@@ -1,0 +1,30 @@
+type: ForceProjector
+name: Vodorotit force dome
+description: Ok.
+health: 700
+shieldHealth: 2500
+size: 3
+itemCapacity: 15
+radius: 150
+phaseUseTime: 50
+phaseRadiusBoost: 50
+breakage: 1
+cooldownNormal: 1.25
+cooldownLiquid: 1.75
+cooldownBrokenBase: 1.95
+basePowerDraw: 0.4
+consumes: {
+ power: 6
+ items: {
+    items: [
+      phase-fabric/1
+    ]
+  }
+}
+requirements: [
+  vodorotit/85
+  titanium/80
+  lead/155
+]
+category: effect
+research: force-projector

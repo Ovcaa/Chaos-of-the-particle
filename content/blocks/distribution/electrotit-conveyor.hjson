@@ -1,0 +1,12 @@
+type: Conveyor
+name: Electrotit conveyor
+description: Electrified conveyor. Transfer items quickly.
+health: 100
+requirements: [
+  electrotit/2
+  titanium/1
+  lead/1
+]
+category: distribution
+speed: 0.16
+research: titanium-conveyor

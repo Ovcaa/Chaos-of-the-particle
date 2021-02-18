@@ -1,0 +1,50 @@
+type: Reconstructor
+name: Void tetrative reconstructor
+health: 90920
+size: 9
+itemCapacity: 2200
+liquidCapacity: 200
+constructTime: 3900
+
+requirements: [
+    lead/5500
+	thorium/1500
+	plastanium/700
+	vodorotit/900
+    surge-alloy/1000
+    silicon/3500
+	electrotit/750
+    void/1200
+]
+
+upgrades: [
+    [lir, elec]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: void
+                amount: 1200
+            },
+            {
+                item: vodorotit
+                amount: 850
+            },
+            {
+                item: surge-alloy
+                amount: 500
+            },
+            electrotit/750
+        ]
+	}	
+    liquid: {
+        liquid: cryofluid+
+        amount: 3
+    }
+    power: 45
+}
+
+category: units
+research: void-exponential-reconstructor

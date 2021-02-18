@@ -1,0 +1,34 @@
+type: itemTurret
+name: Magnate
+description: Powerful turret that fires magnetic energy.
+requirements: [
+copper/1550
+magnetit/400
+surge-alloy/500
+thorium/620
+lead/820
+] 
+ammoTypes: {
+  magnetit: {
+    "type": "MissileBulletType",
+    "lifetime": 120,
+	"damage": 170
+    "speed": 2,
+	"radius": 280
+    "splashDamageRadius": 40,
+    "splashDamage": 90,
+    "frontColor": "BE5BCD",
+    "backColor": "61236B",
+    "homingPower": 5,
+    "homingRange": 70,
+  }
+}
+reloadTime: 12
+shots: 2
+burstSpacing: 2
+inaccuracy: 0.2
+range: 220
+size: 3
+health: 3560
+research: spectre
+category: turret

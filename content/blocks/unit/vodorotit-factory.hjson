@@ -1,0 +1,31 @@
+type: UnitFactory
+name: Vodorotit factory
+health: 500
+size: 3
+itemCapacity: 60
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    vodorotit/140
+]
+
+plans: [
+    {
+        unit: anger
+        requirements: [
+            silicon/20
+            vodorotit/20
+        ]
+        time: 1200
+    }
+]
+
+category: units
+
+consumes: {
+    power: 2.5
+}
+
+research: command-center

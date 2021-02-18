@@ -1,0 +1,46 @@
+type: mech
+name: Anger
+description: Smallest unit.
+health: 290
+speed: 0.6
+mechSideSway: 0.25
+hitSize: 5
+rotateSpeed: 1
+armor: 0.5
+canBoost: true
+landShake: 0.1
+commandLimit: 8
+legCount: 2
+legLength: 2
+legTrns: 0.8
+legMoveSpace: 1.5
+legBaseOffset: 2
+buildSpeed: 0.8
+ammoTypes: powerHigh
+mechStepShake: 0.15
+mechStepParticles: true
+speed: 1
+mechSideSway: 0.25
+research: dagger
+weapons: [
+{
+  name: anger-weapon
+  x: 3
+  y: -1.5
+  shootY: 3
+  reload: 13
+  range: 175
+  ejectEffect: none
+  recoil: 1
+  rotate: true
+  shootSound: flame
+  bullet: {
+    type:  MissileBulletType
+    length: 30
+    damage: 150
+	trailColor: B300C3
+    width: 0.54
+    lifetime: 140
+    knockback: 0.25
+  }
+}]

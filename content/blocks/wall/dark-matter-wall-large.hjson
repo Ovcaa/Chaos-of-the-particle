@@ -1,0 +1,10 @@
+name: Large dark matter wall
+description: STROONG!
+type: Wall
+health: 119040
+size: 2
+requirements: [
+  dark-matter/258
+]
+category: defense
+research: dark-matter-wall

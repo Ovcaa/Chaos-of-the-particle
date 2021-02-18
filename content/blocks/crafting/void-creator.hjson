@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Void creator
+description: Okay.
+size: 6
+hasPower: true
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+  power: 45
+  items: {
+    items: [
+      vodorotit/4
+	  prototit/4
+	  electrotit/4
+	  dark-matter/4
+    ]
+  }
+}
+requirements: [
+  magnetit/550
+  plastanium/475
+  surge-alloy/600
+  dark-matter/350
+]
+category: crafting
+research: dark-matter-generator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: void/1

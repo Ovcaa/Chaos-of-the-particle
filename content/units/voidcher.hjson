@@ -1,0 +1,46 @@
+type: flying
+name: Voidcher
+description: K.
+health: 12570
+flying: true
+speed: 4.5
+accel: 0.125
+drag: 0.0625
+hitSize: 9
+targetAir: false
+engineOffset: 7.8
+faceTarget: false
+armor: 4
+
+weapons: [
+  {
+    name: darcher-weapon
+    minShootVelocity: 0.75
+    x: 3
+    shootY: 0
+    reload: 13
+    shootCone: 180
+    ejectEffect: none
+    inaccuracy: 15
+    ignoreRotation: true
+    shootSound: none
+    bullet: {
+      type: BombBulletType
+      splashDamageRadius: 28
+      damage: 560
+      width: 10
+      height: 14
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      frontColor: 090086
+      backColor: 03002B
+      lightningColor: 090086
+      lightning: 4
+      lightningLength: 4
+      lightningLengthRand: 3
+      lightningDamage: 450
+    }
+  }
+]
+research: void-additive-reconstructor

@@ -1,0 +1,33 @@
+type: UnitFactory
+name: Void factory
+health: 5500
+size: 3
+itemCapacity: 150
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    vodorotit/140
+	dark-matter/200
+	void/100
+]
+
+plans: [
+    {
+        unit: darcher
+        requirements: [
+            void/20
+            vodorotit/20
+        ]
+        time: 1200
+    }
+]
+
+category: units
+
+consumes: {
+    power: 5
+}
+
+research: command-center

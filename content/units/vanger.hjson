@@ -1,0 +1,53 @@
+type: mech
+name: Vanger
+description: P.
+speed: 0.7
+health: 1650
+rotateSpeed: 2.85
+canBoost: true
+weapons: [
+    {
+        name: vanger-weapon-1
+        top: true
+        shake: 2.2
+        shootY: 5
+        x: 9
+        y: 2
+        reload: 25
+        shots: 2
+        inaccuracy: 15
+        shotDelay: 0.5
+        spacing: 0
+        recoil: 2.5
+        ejectEffect: none
+        shootSound: spark
+        bullet: {
+            type: MissileBulletType
+            damage: 250
+			trailColor: B300C3
+			lifetime: 140
+        }
+    },
+    {
+        name: vanger-weapon-2
+        top: true
+        shake: 2
+        shootY: 4
+        x: 6
+        y: -2
+        reload: 90
+        recoil: 4
+        shootSound: laser
+        bullet: {
+            type: LaserBulletType
+            damage: 350
+            recoil: 1
+            sideAngle: 45
+            sideWidth: 1
+            sideLength: 70
+            colors: [DE00F2,B100C1,F25AFF]
+        }
+    }
+]
+
+research: vodorotit-multiplicative-reconstructor

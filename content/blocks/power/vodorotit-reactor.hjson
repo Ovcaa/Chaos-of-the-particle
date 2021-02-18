@@ -1,0 +1,27 @@
+type: ImpactReactor
+name: Vodorotit reactor
+description: Generates power.
+size: 6
+health: 1580
+hasPower: true
+powerProduction: 320
+consumes: {
+ power: 5
+ liquid: cryofluid+/0.2
+  items: {
+    items: [
+      vodorotit/2
+    ]
+    optional: true
+  }
+}
+requirements: [
+  lead/550
+  thorium/125
+  metaglass/350
+  vodorotit/145
+  silicon/300
+  
+]
+category: power
+research: impact-reactor

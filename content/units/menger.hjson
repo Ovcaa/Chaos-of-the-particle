@@ -1,0 +1,35 @@
+type: mech
+name: Menger
+description: Q.
+speed: 1
+health: 29500
+rotateSpeed: 2.85
+canBoost: true
+weapons: [
+    {
+        name: menger-weapon
+        top: true
+        shake: 2.2
+        shootY: 10
+        x: 9
+        y: 2
+        reload: 30
+        shots: 2
+        inaccuracy: 15
+        shotDelay: 0.5
+        spacing: 0
+        recoil: 2.5
+        ejectEffect: none
+        shootSound: laser
+        bullet: {
+            type: LaserBulletType
+            damage: 750
+            sideAngle: 45
+            sideWidth: 1
+            sideLength: 50
+            colors: [DE00F2,B100C1,F25AFF]
+        }
+    }
+]
+
+research: vodorotit-exponential-reconstructor

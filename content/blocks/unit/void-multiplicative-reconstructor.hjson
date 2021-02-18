@@ -1,0 +1,38 @@
+type: Reconstructor
+name: Void multiplicative reconstructor
+health: 13680
+size: 5
+itemCapacity: 60
+constructTime: 2500
+
+requirements: [
+    lead/900
+    silicon/700
+    titanium/500
+    thorium/900
+    vodorotit/500
+    void/500
+]
+
+upgrades: [
+    [voidcher, archer]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: vodorotit
+                amount: 200
+            },
+            {
+                item: electrotit
+                amount: 100
+            },
+            void/250
+        ]
+    }
+    power: 15
+}
+category: units
+research: void-additive-reconstructor

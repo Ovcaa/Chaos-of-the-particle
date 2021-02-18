@@ -1,0 +1,10 @@
+name: Large magnetit wall
+description: Super strong large wall.
+type: Wall
+health: 6880
+size: 2
+requirements: [
+  magnetit/24
+]
+category: defense
+research: magnetit-wall

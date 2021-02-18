@@ -1,0 +1,13 @@
+name: Large electrotit wall
+description: A large wall that reflects damage very well.
+type: Wall
+health: 4920
+size: 2
+lightningChance: 0.25
+lightningDamage: 55
+requirements: [
+  surge-alloy/24
+  electrotit/24
+]
+category: defense
+research: electrotit-wall

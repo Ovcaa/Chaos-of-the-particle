@@ -1,0 +1,37 @@
+type: Reconstructor
+name: Vodorotit additive reconstructor
+health: 750
+size: 3
+itemCapacity: 80
+constructTime: 1700
+
+requirements: [
+    copper/350
+    lead/260
+    silicon/200
+	vodorotit/100
+]
+
+upgrades: [
+    [anger, renger]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: lead
+                amount: 50
+            },
+            {
+                item: vodorotit
+                amount: 50
+            },
+            silicon/40
+        ]
+    }
+    power: 5
+}
+
+category: units
+research: vodorotit-factory

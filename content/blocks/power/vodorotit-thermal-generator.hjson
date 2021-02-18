@@ -1,0 +1,16 @@
+type: ThermalGenerator
+name: Vodorotit thermal generator
+description: Generates power.
+size: 2
+health: 1080
+hasPower: true
+powerProduction: 5
+generateEffect: redgeneratespark
+requirements: [
+  copper/60
+  lead/75
+  metaglass/50
+  vodorotit/65
+]
+category: power
+research: thermal-generator

@@ -1,0 +1,10 @@
+name: Magnetit wall
+description: Super strong wall.
+type: Wall
+health: 1720
+size: 1
+requirements: [
+  magnetit/6
+]
+category: defense
+research: surge-wall-large

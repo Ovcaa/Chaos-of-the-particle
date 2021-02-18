@@ -1,0 +1,6 @@
+name: Cryofluid+
+description: Upgrade cryofluid.
+temperature: 0.15
+heatCapacity: 1.3
+viscosity: 0.4
+color: 3DCFFF

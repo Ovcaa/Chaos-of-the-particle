@@ -1,0 +1,32 @@
+type: itemTurret
+name: Voider
+description: Yh.
+consumes: {
+ power: 400
+}
+requirements: [
+copper/8000
+magnetit/5400
+surge-alloy/7500
+electrotit/5620
+vodorotit/5820
+prototit/7450
+void/5400
+] 
+ammoTypes: {
+  void: {
+    "type": "LaserBulletType",
+	"damage": 21770
+	"length": 770
+    "colors": [003487, 00122E]
+  }
+}
+reloadTime: 4
+shots: 12
+burstSpacing: 2
+inaccuracy: 0.2
+range: 770
+size: 12
+health: 616560
+research: darc
+category: turret

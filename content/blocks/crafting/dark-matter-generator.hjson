@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Dark matter generator
+description: Okay.
+size: 5
+hasPower: true
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+  power: 25
+  items: {
+    items: [
+      vodorotit/2
+	  prototit/2
+	  electrotit/2
+    ]
+  }
+}
+requirements: [
+  magnetit/550
+  plastanium/475
+  surge-alloy/600
+]
+category: crafting
+research: electrotit-particle-accelerator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: dark-matter/1

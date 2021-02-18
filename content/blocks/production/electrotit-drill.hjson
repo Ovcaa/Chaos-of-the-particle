@@ -1,0 +1,24 @@
+name: Electrotit drill
+description: Ahah.
+type: Drill
+hasLiquids: trie
+size: 3
+tier: 4
+drillTime: 15
+liquidBoostIntensity: 2.2
+consumes: {
+  power: 5
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  electrotit/80
+  silicon/40
+  graphite/20
+  lead/50
+]
+category: production
+research: laser-drill

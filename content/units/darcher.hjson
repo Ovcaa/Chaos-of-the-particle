@@ -1,0 +1,52 @@
+type: flying
+name: Darcher
+despriction: Gay.
+flying: true
+speed: 5.5
+accel: 0.125
+drag: 0.0625
+health: 5760
+engineOffset: 5.5
+weapons: [
+  {
+    name: darcher-weapon
+    y: 0
+    x: 2
+    reload: 14
+    ejectEffect: casing1
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      damage: 350
+      speed: 2.75
+      width: 6
+      height: 8
+      frontColor: 090086
+      backColor: 03002B
+      lifetime: 45
+      sprite: bullet
+      lightningColor: 090086
+      lightning: 2
+      lightningLength: 4
+      lightningLengthRand: 3
+      lightningDamage: 300
+    }
+  },
+  {
+    name: darcher-weapon
+    y: 0
+    x: 2
+    reload: 12
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+      type: LightningBulletType
+      damage: 300
+      lightningLength: 4
+      lightningLengthRand: 6
+      lightningColor: 090086
+      lightning: 3
+    }
+  }
+]
+research: void-factory

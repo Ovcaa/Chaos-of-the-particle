@@ -1,0 +1,39 @@
+type: Reconstructor
+name: Void additive reconstructor
+health: 7650
+size: 3
+itemCapacity: 160
+constructTime: 1700
+
+requirements: [
+    copper/350
+    lead/260
+    silicon/200
+	vodorotit/100
+    void/500
+    dark-matter/200
+]
+
+upgrades: [
+    [darcher, voidcher]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: void
+                amount: 50
+            },
+            {
+                item: vodorotit
+                amount: 50
+            },
+            silicon/40
+        ]
+    }
+    power: 8
+}
+
+category: units
+research: void-factory

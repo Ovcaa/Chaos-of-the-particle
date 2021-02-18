@@ -1,0 +1,17 @@
+name: Electrotit battery
+type: Battery
+health: 650
+size: 3
+emptyLightColor: 235166
+fullLightColor: 44C1FB
+consumes: {
+  powerBuffered: 100000
+}
+requirements: [
+	electrotit/50
+	silicon/30
+	titanium/ 30
+	lead/50
+]
+research: battery-large
+category: power

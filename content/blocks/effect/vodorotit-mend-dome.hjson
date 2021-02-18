@@ -1,0 +1,26 @@
+type: MendProjector
+name: Vodorotit mend dome
+description: K.
+health: 700
+size: 3
+itemCapacity: 15
+range: 150
+reload: 65
+phaseRangeBoost: 20
+color: 87ED89
+healPercent: 15
+consumes: {
+ power: 10
+  items: {
+    items: [
+      vodorotit/4
+    ]
+  }
+}
+requirements: [
+  vodorotit/85
+  titanium/50
+  lead/155
+]
+category: effect
+research: mend-projector

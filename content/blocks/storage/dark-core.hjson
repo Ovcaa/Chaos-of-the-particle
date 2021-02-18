@@ -1,0 +1,21 @@
+type: CoreBlock
+name: "Core: «Dark»"
+description: Fac.
+details: fac
+size: 7
+health: 155000
+itemCapacity: 27000
+
+requirements: [
+    copper/15000
+    lead/16000
+    vodorotit/16000
+    magnetit/15000
+    dark-matter/15000
+    prototit/14000
+]
+category: effect
+research: extra-core
+
+unitType: dark
+unitCapModifier: 40

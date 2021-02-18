@@ -1,0 +1,139 @@
+type: flying
+name: Elec
+description: Wat.
+health: 1392670
+flying: true
+speed: 3.85
+accel: 0.125
+drag: 0.0625
+hitSize: 40
+lowAltitude: true
+armor: 10
+
+engineOffset: 5
+engineSize: 6
+
+weapons: [
+  {
+    name: elec-weapon-1
+    reload: 10
+    x: 4
+    y: 12.5
+    rotate: true
+    shake: 1
+    shots: 2
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: BasicBulletType
+      speed: 3
+      damage: 6520
+      width: 8
+      height: 8
+      shrinkY: 0
+      drag: -0.003
+      keepVelocity: false
+      splashDamageRadius: 25
+      splashDamage: 560
+      backColor: 03002B
+      frontColor: 090086
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 6
+      weaveMag: 1
+    }
+  }
+  {
+    name: elec-weapon-2
+    reload: 20
+    x: 10.5
+    y: 7
+    rotate: true
+    shake: 1
+    shots: 4
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: BasicBulletType
+      speed: 4
+      damage: 7920
+      width: 10
+      height: 10
+      shrinkY: 0
+      drag: -0.003
+      keepVelocity: false
+      splashDamageRadius: 25
+      splashDamage: 560
+      backColor: 03002B
+      frontColor: 090086
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 6
+      weaveMag: 1
+    }
+  }
+  {
+    name: elec-weapon-2
+    reload: 20.1
+    x: 14.25
+    y: 4
+    rotate: true
+    shake: 1
+    shots: 4
+    shootSound: laser
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: BasicBulletType
+      speed: 4
+      damage: 7920
+      width: 10
+      height: 10
+      shrinkY: 0
+      drag: -0.003
+      keepVelocity: false
+      splashDamageRadius: 25
+      splashDamage: 560
+      backColor: 03002B
+      frontColor: 090086
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      weaveScale: 6
+      weaveMag: 1
+    }
+  }
+  {
+    name: elec-weapon-3
+    reload: 25
+    x: 15
+    y: -5.625
+    rotate: true
+    shake: 1
+    shots: 4
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: LaserBulletType
+      damage: 9920
+      colors: [03002B, 090086]
+    }
+  }
+  {
+    name: elec-weapon-3
+    reload: 25.1
+    x: 7
+    y: -8
+    rotate: true
+    shake: 1
+    shots: 4
+    shootSound: laser
+    inaccuracy: 5
+    velocityRnd: 0.2
+    bullet: {
+      type: LaserBulletType
+      damage: 9920
+      colors: [03002B, 090086]
+    }
+  }
+]
+research: void-exponential-reconstructor

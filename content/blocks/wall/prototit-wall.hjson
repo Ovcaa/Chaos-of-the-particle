@@ -1,0 +1,13 @@
+name: Prototit wall
+description: A wall that absorbs energy very well.
+type: Wall
+health: 1050
+size: 1
+requirements: [
+  plastanium/5
+  prototit/5
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: magnetit-wall-large

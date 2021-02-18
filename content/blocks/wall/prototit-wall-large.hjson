@@ -1,0 +1,13 @@
+name: Large prototit wall
+description: A large wall that absorbs energy very well.
+type: Wall
+health: 4200
+size: 2
+requirements: [
+  plastanium/20
+  prototit/20
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: prototit-wall

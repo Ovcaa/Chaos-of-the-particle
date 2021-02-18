@@ -1,0 +1,5 @@
+type: material
+name: Vodorotit
+description: A mixture of hydrogens.
+cost: 1
+color: 00FFF3

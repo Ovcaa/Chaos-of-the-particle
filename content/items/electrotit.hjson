@@ -1,0 +1,5 @@
+type: material
+name: Electrotit
+description: A mixture of electrons. Conducts electricity well.
+cost: 1
+color: FF6A2A

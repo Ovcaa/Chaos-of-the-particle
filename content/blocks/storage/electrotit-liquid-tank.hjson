@@ -1,0 +1,13 @@
+name: Electrotit liquid tank
+description: MOORE LIQUIDS!
+type: LiquidRouter
+size: 3
+health: 2500
+liquidCapacity: 3500
+category: liquid
+requirements: [
+  electrotit/35
+  titanium/30
+  metaglass/30
+]
+research: liquid-tank

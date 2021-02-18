@@ -1,0 +1,20 @@
+type: GenericSmelter
+name: Electrotit article accelerator
+description: Accelerates particles.
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+  power: 15
+}
+requirements: [
+  magnetit/100
+  plastanium/175
+]
+category: crafting
+research: mixer-rare-resource
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: electrotit/2

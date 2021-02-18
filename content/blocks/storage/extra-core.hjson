@@ -1,0 +1,21 @@
+type: CoreBlock
+name: "Core: «Extra»"
+description: Oh shit.
+details: u gay
+size: 6
+health: 15000
+itemCapacity: 19000
+
+requirements: [
+    copper/12000
+    lead/12000
+    vodorotit/6000
+    magnetit/5000
+    electrotit/5000
+    prototit/6000
+]
+category: effect
+research: core-nucleus
+
+unitType: extra
+unitCapModifier: 32

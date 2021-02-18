@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Mixer of rare resources.
+description: Mixes rare resources and produces magnetit.
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+  power: 5
+  items: {
+    items: [
+      surge-alloy/3
+      phase-fabric/2
+      plastanium/3
+    ]
+  }
+}
+requirements: [
+  surge-alloy/100
+  plastanium/175
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: magnetit/2
